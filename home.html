@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">0
+        <title>Playground</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div style="width: 6in;">
+        <h1>Welcome to the playground site!</h1>
+<p></p>
+        <p>"Hello this is a website thats like a playground its fun it has like random stuff like buttons and links and pictures etc. But we have a survey to do first! "</p>
+        </div>
+<p></p>
+        <div>
+            <form name="form">
+                <label for="name">Whats your name</label>
+                <input type="text"  placeholder="Name" id="myname">
+                <label>How old are you</label>
+                <input  placeholder="Age" type="text" id="myage">
+
+                <label>What country were you born in</label>
+                <select id="mycountry">
+                    <option value="england">England</option>
+                    <option value="US">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="france">France</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="italy">Italy</option>
+                    <option value="brazil">Brail</option>
+                    <option value="switzerland">Switzerland</option>
+                    <option value="india">India</option>
+                    <option value="japan"> Japan</option>
+                    <option value="russia">Russia</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <input type="submit" value="Submit" onclick="printinput()">
+            </form>
+            
+        </div>
+<p></p>
+        <div>
+           <h1>Time for suprise!</h1>
+           <p>Click this button for a suprise! Its for Mrs.Wooten</p>
+           <a href="To wooten.mp4" download>
+            <button>Suprise</button>
+           </a>
+        </div>
+<p></p>
+        <div>
+            <h1>A weird button</h1>
+            <p>"This button is weird it does stuff that is not in this website it communicates with your computer which will say messages that depend on your computer actions, 
+            weird right.  I would click it to see what is does. So click it!"</p>
+            <button onclick="Hack()">Weird Button</button>
+            <p id="weird"></p>
+        </div>
+<p></p>
+        <div>
+            <h1>Show your rating</h1>
+            <p>Click your button to show your rating</p>
+            <button onclick="show_rating()">click to rate!</button>
+            <p id="showrating"></p>
+        </div>
+        </body>
+</html>
